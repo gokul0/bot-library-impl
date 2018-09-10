@@ -13,10 +13,15 @@
   "author": "gokulan",
   "license": "ISC",
   "dependencies": {
-    "bot-library": "^1.0.11",
+    "bot-library": "^1.0.18",
     "botbuilder": "^3.15.0",
+    "botkit": "^0.6.16",
     "express": "^4.16.3",
     "morgan": "^1.9.0",
+    "nodemailer": "^4.6.8",
     "restify": "^7.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
   }
 }

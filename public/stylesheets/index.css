@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.margin-top-xl{
+    margin-top: 20px;
+}
+.rule--medium {
+    color: #ddd;
+    
+}
+header{
+      position: sticky;
+      height: 100px;
+      width: 100%;
+      background-color: bisque;
+}
+
+input[type="radio"]{ display: none; }
+
+ul > li {
+    list-style-type: none;
+}
+
+input[type="radio"]:checked + label .card{ 
+    border-color: #33cc33;
+    color: #33cc33;
+  }
+
+  .custom-radio {
+      text-align: center
+  }
+
+  label{
+
+    height: 300px;
+    width: 300px;
+  }
+  .card {
+      height: 350px;
+      width: 300px;
+      text-align: center;
+  }
+
+  .card-body{
+      padding: 0;
+  }
+
+  .card-img-top{
+      height: 300px;
+      width: 300px;
+  }
+
+  
